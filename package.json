@@ -1,0 +1,16 @@
+{
+  "name": "rule-engine",
+  "version": "1.0.0",
+  "description": "Rule engine with AST in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dbsetup": "node dbSetup.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "body-parser": "^1.19.0"
+  }
+}
